@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net8.0</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Rakibul Hasan Mozumder (RHM)</Authors>
+    <Company>RHM</Company>
+    <Description>
+      A lightweight .NET library to ensure a single instance of an application.
+      If another instance is running, its window is brought to the foreground
+      and the current instance exits. Supports Console, WPF, and WinForms applications.
+    </Description>
+    <PackageId>RHM.SingleInstance.Windowing</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>single-instance;windowing;mutex;console;WPF;WinForms</PackageTags>
+  </PropertyGroup>
+
+</Project>
